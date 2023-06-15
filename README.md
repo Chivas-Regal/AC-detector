@@ -9,18 +9,23 @@
 
 若返回 `Wrong Answer in test <id>`  
 请进 
-- dst/sample<id>/input.txt 看出错的输入  
-- dst/sample<id>/output_mine.txt 看自己的输出  
-- dst/sample<id>/output_others.txt 看标答的输出  
+- `dst/sample<id>/input.txt` 看出错的输入  
+- `dst/sample<id>/output_mine.txt` 看自己的输出  
+- `dst/sample<id>/output_others.txt` 看标答的输出  
 
 > 已经在三个文件里面给出了一份和标答相异输出的示例
 
 ## 运行方式
 
-有 bash 在终端写 `bash run.sh`
+环境内有 `bash` 的在终端写   
+
+```sh
+bash run.sh
+```
+
 否则进入本项目目录后运行  
 
-```txt
+```sh
 g++ work/main.cpp -o work/main -std=c++11
 work/main
 ```
@@ -30,8 +35,9 @@ work/main
 这是作者在下班之余简单构思一会儿完成的小玩具，辅助功能较少。  
 存在 “功能需求” 或者 “造数据的辅助工具” 的 uu 请联系作者：1411390466@qq.com  
 或者 
-    - +Q: 1411390466
-    - +V: zyz1411390466
+- +Q: 1411390466
+- +V: zyz1411390466  
+
 我们一起探讨  
   
 > 目前不支持 RE 的报错，但 RE 报错会在 `Wrong Answer` 前被本机电脑指出
