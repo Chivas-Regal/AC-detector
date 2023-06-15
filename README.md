@@ -14,6 +14,13 @@
 - `dst/sample<id>/output_others.txt` 看标答的输出  
 
 > 已经在三个文件里面给出了一份和标答相异输出的示例
+>
+> **演示**  
+> 两份代码一个 `a*b` 一个 `a+b` ，所以答案错误 
+> ![ea682d2fe2f8b8c21b151ee14b61e4f3](https://cr-demo-blog-1308117710.cos.ap-nanjing.myqcloud.com/chivas-regal/ea682d2fe2f8b8c21b151ee14b61e4f3.png)
+>
+> 都是 `a+b` 就答案正确
+> ![dd83b5886fc00c77827a97e8b20453d4](https://cr-demo-blog-1308117710.cos.ap-nanjing.myqcloud.com/chivas-regal/dd83b5886fc00c77827a97e8b20453d4.png)
 
 ## 运行方式
 
